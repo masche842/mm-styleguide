@@ -8,7 +8,7 @@ spec = Gem::Specification.new do |s|
   s.authors = ["Jan 'halfbyte' Krutisch"]
   s.add_runtime_dependency 'rails', '~> 3.0.1'
   s.add_development_dependency 'rails', '~> 3.0.1'
-  s.files = Dir['app/**/*.rb'] + Dir['app/**/*.erb'] + Dir['lib/**/*.rb']
+  s.files = Dir['app/**/*.rb'] + Dir['app/**/*.erb'] + Dir['lib/**/*.rb'] + Dir['config/**/*.rb']
   
   
 end

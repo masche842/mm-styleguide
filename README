@@ -1,13 +1,31 @@
-Styleguide
-==========
+Styleguide Engine
+=================
 
-Introduction goes here.
-
-
-Example
-=======
-
-Example goes here.
+This is an engine to add a dead simple way of making a project wide
+styleguide for all things css and design
 
 
-Copyright (c) 2011 [name of plugin creator], released under the MIT license
+Installation
+============
+
+Currently this needs a little more manual setup, we'll eventually add
+generators to it.
+
+After adding the plugin to the Gemfile like this:
+
+gem 'mm-styleguide', :git => "http://github.com/mindmatters/mm-styleguide.git", :lib => 'styleguide'
+
+just bundle.
+
+After that, you need a few folders and files to get going:
+
+Your styleguide files go here (these are plain rails view files):
+
+app/views/styleguide/
+
+Apart from the views, you'll also need a partial named _head, where
+you should insert all the stylsheet requires you are having in your
+application layouts. Take a look at the rails app in test/fixtures/rails_app
+if you have any questions.
+
+Copyright (c) 2011 Jan Krutisch/mindmatters GmbH & Co. KG, released under the MIT license
