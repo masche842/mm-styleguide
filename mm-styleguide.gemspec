@@ -6,8 +6,8 @@ spec = Gem::Specification.new do |s|
   s.homepage = 'https://github.com/mindmatters/mm-styleguide'
   s.email = ['jan.krutisch@mindmatters.de']
   s.authors = ["Jan 'halfbyte' Krutisch"]
-  s.add_runtime_dependency 'rails', '~> 3.0.1'
-  s.add_development_dependency 'rails', '~> 3.0.1'
+  s.add_runtime_dependency 'rails', '~> 3.1'
+  s.add_development_dependency 'rails', '~> 3.1'
   s.files = Dir['app/**/*.rb'] + Dir['app/**/*.erb'] + Dir['lib/**/*.rb'] + Dir['config/**/*.rb']
   
   
